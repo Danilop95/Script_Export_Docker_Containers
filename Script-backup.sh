@@ -42,6 +42,6 @@ else
 fi
 
 ##Borrar carpeta con fecha de tres semanas 
-find $Backup/* -mtime +7 -type f -delete
+find $Backup/backup-* -mtime +7 -type f -delete
 ##FIN
 ##AlejandroDanielVictor
